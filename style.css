@@ -60,6 +60,8 @@ form {
     flex-direction: column;
 }
 
+
+
 .input-field {
     position: relative;
 }
@@ -130,11 +132,13 @@ form input[type="submit"]:hover {
     margin-top: 1rem;
 }
 
-.footer span {
+.footer span1 {
     color: rgba(0, 0, 0, 0.7);
     font-size: 0.8rem;
     text-align: center;
+    padding: 0.1rem;
 }
+
 
 .footer .social-field {
     padding: 0.3rem;
@@ -159,12 +163,14 @@ form input[type="submit"]:hover {
 
 .footer .social-field a {
     text-decoration: none;
-    color: white;
-    
+    color: white;   
 }
-.footer .social-field.cadastro {
-   text-align: center;
-}
+
+/* .footer .social-field.cadastro {
+    text-align: center;
+   
+
+} */
 
 .footer .social-field.facebook {
     background: linear-gradient(to right, #1e3c72, #2a5298);
@@ -173,8 +179,12 @@ form input[type="submit"]:hover {
 .footer .social-field.twitter {
     background: linear-gradient(to right, #2a5298, #083F4D);
 }
+ 
 
-.social-field.cadastro {
-    background: linear-gradient(to right, #00BAC6, #083F4D);
+a {
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: normal;
+    font-size: 0.8rem;
 }
-
